@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<!-- ======== Aggiungi immagine di background dietro il logo ========== -->
+<!--
+<style>
+  #hero {
+    position: relative;
+    overflow: hidden;
+    height: 100vh; /* Assicura che l'header copra tutta l'altezza della finestra */
+  }
+  #hero .background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Posiziona l'immagine di sfondo dietro tutto */
+  }
+  #hero .background-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Fa sì che l'immagine copra tutto l'header mantenendo le proporzioni */
+  }
+  #hero .container {
+    position: relative;
+    z-index: 3; /* Posiziona il contenuto sopra l'immagine di sfondo */
+    color: white; /* Assicura che il testo sia visibile sopra l'immagine */
+  }
+  #hero .hero-img {
+    position: relative;
+  }
+  #hero .logo-img {
+    opacity: 0.8; /* Imposta l'opacità del logo per vedere l'immagine di sfondo in trasparenza */
+  }
+/*  #hero h1, #hero h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Aggiunge un'ombra al testo per migliorare la leggibilità */
+  }
+</style> -->
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>ALDiNa - Archivi Letterari Digitali Nativi</title>
+  <meta content="ALDiNa è un progetto di ricerca nato per la valorizzazione del nativo digitale d’autore" name="description">
+  <meta content="born digital, digitale d'autore, nativo digitale, ALDiNa, AIUCD" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Language Selector ======= -->
+  <!--
+  <div class="language-selector">
+    <select id="language">
+      <option value="it"><i class="fas fa-flag-it"></i> Italiano</option>
+      <option value="en"><i class="fas fa-flag-usa"></i> English</option>
+    </select>
+  </div>-->
+
+  <!-- ======= Header ======= -->
+      <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center">
+
+        <h1 class="logo me-auto">
+     <a href="https://www.aiucd.it/"> <img src="assets/img/clients/client1o.png" class="logo-img-small" alt="Logo AIUCD"></a>
+      <a href="https://www.clarin.eu/"> <img src="assets/img/clients/client2.png" class="logo-img-small" alt="Logo Clarin"></a>
+   </h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+<!-- ===== NAVBAR MENù ====-->
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">Progetto</a></li>
+              <li><a class="nav-link scrollto" href="#chi-siamo">Persone</a></li>
+          <li><a class="nav-link scrollto" href="centri.html">Centri</a></li>
+          <li><a class="nav-link scrollto" href="biblio.html">Bibliografia</a></li>
+          </li>
+          <li><a class="nav-link scrollto" href="notizie.html">Notizie</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contatti</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+  <!-- ======= Background Image ======= -->
+  <!--<div class="background-container">
+    <img src="assets/img/prova.png" class="background-img" alt="Pattern">
+  </div>-->
+
+  <div class="container position-relative z-index-3">
+    <div class="row">
+      <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+        <h1>ALDiNa - Archivi Letterari Digitali Nativi</h1>
+        <h2>Un progetto di AIUCD e con la collaborazione di CLARIN-IT</h2>
+        <div class="d-flex justify-content-center justify-content-lg-start">
+          <a href="#about" class="btn-get-started scrollto">Scopri di più</a>
+          <a href="https://www.youtube.com/watch?v=yFmqgbeEvik" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Guarda il video</span></a>
+        </div>
+      </div>
+      <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+    <img src="assets/img/logosm.png" class="img-fluid animated logo-img" alt="Logo"> <!-- width="75%" height="75%"> -->
+      </div>
+    </div>
+  </div>
+
+</section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Loghi AIUCD e Clarin ======= -->
+    <!--
+ <section id="cliens" class="cliens section-bg">
+      <div class="container">
+        <div class="row" data-aos="zoom-in">
+          <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <h2>Con il patrocinio di </h2>
+          </div>
+          <div class="col-lg-4 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client1o...png" class="img-fluid" alt="Logo AIUCD">
+          </div>
+          <div class="col-lg-4 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client2o..png" class="img-fluid" alt="Logo Clarin">
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>--><!-- End Cliens Section -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Il progetto</h2>
+        </div>
+        <div class="row content">
+          <div class="col-lg-6">
+            <p style="text-align: justify;">
+                    <strong>ALDiNa</strong> nasce sotto l’egida di AIUCD e con la collaborazione di CLARIN-IT.
+              </p>
+              <p style="text-align: justify;">
+                    <strong>ALDiNa</strong> è un progetto di ricerca nato per raccogliere informazioni dettagliate e garantire una documentazione e valorizzazione adeguata del nativo digitale d’autore − tema ancora poco affrontato nel panorama italiano − al fine di promuovere la condivisione di metodologie e buone pratiche che garantiscano la comprensione teorica del problema, e la preservazione, l’accesso e lo studio del patrimonio.
+              </p>
+              <p style="text-align: justify;">
+                    Molte sono infatti le istituzioni che conservano documenti digitali (e.g. testi, immagini, audio, video, email, post, etc.) su supporti diversi (magnetici, ottici, ma anche cloud) e/o in differenti formati, spesso proprietari e privi di adeguata documentazione. La mancanza di sensibilità e di cura filologica verso il digitale, la fragilità dei supporti e l’obsolescenza di hardware e di software aumentano il rischio di vuoti di memoria. Casi paradigmatici sono la riformattazione di molti personal computer di autrici e autori, la smagnetizzazione dei floppy disk (o altri tipi di supporto) o l’incompatibilità di vecchi formati di documento con i moderni word processors.
+              </p>
+          </div>
+          <div class="col-lg-6">
+            <p style="text-align: justify;">
+                    Il primo obiettivo di <strong>ALDiNa</strong> è quello di realizzare una mappatura dei materiali conservati presso centri di ricerca, fondazioni, università, biblioteche, archivi e musei, ed eventualmente, in futuro, presso case editrici e sedi di riviste, e altre realtà che conservano a vario titolo questa tipologia di materiale. Riteniamo infatti che un primo sondaggio sul territorio sia una condizione essenziale per aprire un dibattito sul tema, ormai urgente e non più rinviabile.
+              </p>
+              <p style="text-align: justify;">
+                    Il progetto partirà dunque da un questionario che coinvolgerà un ampio numero di soggetti conservatori; il lavoro sarà integrato da consultazioni e verifiche dirette presso archivi e istituzioni. Si realizzerà una base di dati, modellata sulla struttura del questionario e degli archivi di cui si ha già conoscenza. Si andrà quindi a creare un catalogo per la raccolta e la preservazione di metadati relativi a contenuti testuali e multimediali, dispositivi hardware eventualmente conservati (computer, floppy disk, hard disk ecc.) e stato di preservazione e funzionamento.
+              </p>
+          </div>
+      </div>
+    </section><!-- End About Us Section -->
+
+
+    <!-- ======= Services Section ======= -->
+    <!-- ======= Chi Siamo Section ======= -->
+<section id="chi-siamo" class="services section-bg">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>Persone</h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-12" style="margin-bottom: 20px; text-align:left;">
+        <h3>Direzione scientifica</h3>
+        <p>
+          <a href="https://studiumanistici.unipv.it/?pagina=docenti&id=120" target="_blank">Paul Gabriele Weston</a> e
+          <a href="https://www.unibo.it/sitoweb/francesca.tomasi" target="_blank">Francesca Tomasi</a>
+        </p>
+      </div>
+
+      <div class="col-lg-12" style="margin-bottom: 20px; text-align:left;">
+        <h3>Comitato organizzatore</h3>
+        <p>
+          <a href="https://www.unive.it/data/persone/5592439/curriculum" target="_blank">Federico Boschetti</a>,
+          <a href="https://docenti.unisi.it/it/carbe" target="_blank">Emmanuela Carbé</a>,
+          <a href="https://www.unive.it/data/persone/13256131" target="_blank">Tiziana Mancinelli</a>
+        </p>
+      </div>
+
+      <div class="col-lg-12" style="margin-bottom: 20px; text-align:left;">
+        <h3>Comitato scientifico</h3>
+        <p>
+          <a href="https://www.unibo.it/sitoweb/stefano.allegrezza" target="_blank">Stefano Allegrezza (Univ. di Bologna)</a>,
+          <a href="https://studiumanistici.unipv.it/?pagina=docenti&id=2374" target="_blank">Giuseppe Antonelli (Univ. di Pavia)</a>,
+          <a href="https://www.unive.it/data/persone/5592439/curriculum" target="_blank">Federico Boschetti (ILC-CNR)</a>,
+          <a href="https://docenti.unisi.it/it/carbe" target="_blank">Emmanuela Carbé (Univ. di Siena)</a>,
+          <a href="https://directory.uniroma2.it/index.php/chart/dettagliDocente/8353" target="_blank">Fabio Ciotti (Univ. di Roma Tor Vergata)</a>,
+          <a href="https://www.unive.it/data/persone/21292086/curriculum" target="_blank">Franz Fischer (Univ. di Venezia)</a>,
+          <a href="https://www.unibo.it/sitoweb/paola.italia" target="_blank">Paola Italia (Univ. di Bologna)</a>,
+          <a href="https://www.unive.it/data/persone/13256131" target="_blank">Tiziana Mancinelli (Univ. di Venezia)</a>,
+          <a href="https://www.ilc.cnr.it/people/monica-monachini-2/" target="_blank">Monica Monachini (ILC-CNR)</a>,
+          <a href="https://docenti.unisi.it/it/scaffai" target="_blank">Niccolò Scaffai (Univ. di Siena)</a>,
+          <a href="https://bdfinance.academia.edu/MichelangeloZaccarello/CurriculumVitae" target="_blank">Michelangelo Zaccarello (Univ. di Pisa)</a>
+        </p>
+      </div>
+
+      <div class="col-lg-12" style="margin-bottom: 20px; text-align:left;">
+        <h3>Gruppo di lavoro</h3>
+        <p>
+          <a href="https://www.unibo.it/sitoweb/alessia.delbianco9" target="_blank">Alessia del Bianco (Univ. di Bologna)</a>,
+          <a href="https://www.unibo.it/sitoweb/lucia.giagnolini2" target="_blank">Lucia Giagnolini (Univ. di Bologna)</a>,
+          <a href="https://www.unibo.it/sitoweb/mariangela.giglio2" target="_blank">Mariangela Giglio (Univ. di Bologna)</a>,
+          <a href="https://www.unibo.it/sitoweb/adele.gorini2" target="_blank">Adele Gorini (Univ. di Bologna)</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section><!-- End Chi Siamo Section -->
+
+
+    <!-- ======= Sezione team con foto ======= -->
+    <!--
+    <section id="team" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Gruppo di lavoro</h2>
+          <p>Chi collabora a questo progetto</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Alessia Del Bianco</h4>
+                <span>Chief Executive Officer</span>
+                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4 mt-lg-0">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Lucia Giagnolini</h4>
+                <span>Product Manager</span>
+                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
+              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Mariangela Giglio</h4>
+                <span>CTO</span>
+                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Amanda Jepson</h4>
+                <span>Accountant</span>
+                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>-->
+    <!-- End Team Section -->
+
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <!--<section id="faq" class="faq section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Perché il nome ALDiNa? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                <p>
+L’acronimo allude ad Aldo Manuzio, umanista, editore e stampatore quattro-cinquecentesco, inventore delle edizioni aldine, “prototipo del libro moderno”. Ci si richiama in questo modo ad uno degli artefici della “rivoluzione del libro”, tante volte paragonata a quella del digitale.                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Perché l'ancora come logo? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                <p>
+Il logo del sito riprende la famosa ancora della marca tipografica utilizzata dallo stampatore per identificare i volumi da lui editi, modernizzandola con un richiamo al grafo della conoscenza e al network.                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Come funziona il questionario?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Si è concepito un questionario da sottoporre a tutti gli archivi che conservano materiali digitali, al duplice scopo di conoscere lo stato dell’arte ma anche di uniformare e razionalizzare al meglio il processo di acquisizione e gestione di questi materiali.
+                  Il questionario verificherà quali sono gli oggetti nativi digitali, archiviati o in attesa di archiviazione, di cui ci si vuole occupare. Più specificamente si vuol capire quali fondi esistono,le tipologie documentarie attestate,le tipologie hardware,le versioni software.</p>
+                  <p> Inoltre si cercherà di stabilire quali sono le modalità di gestione e trattamento di materiali hardware e file attualmente esistenti. Nella fattispecie policies di preservazione,i piani di inventariazione e catalogazione, le modalità di accesso e fruizione.
+                 </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Quali sono le criticità del progetto? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  La prima difficolta che l'archivista incontra consiste nel cercare di scoprire se esistano e dove si trovino "nuclei" dell'archivio del soggetto produttore: spesso si ignora addirittura in quali spazi virtuali possano essere archiviati i suoi documenti digitali.
+                Una ulteriore difficoltà, spesso insormontabile, consiste nell'impossibilità di accedere ai documenti trovati.Anche qualora si riesca ad avere le credenziali di autenticazione, ci si imbatte in un terzo livello di difficoltà,
+rappresentato dallo scorrere del tempo. L'archivio digitale di un letterato rischia così di essere irrecuperabile anche solamente dopo pochi mesi.    </p>
+              </div>
+            </li>
+
+
+          </ul>
+        </div>
+
+      </div>
+    </section>--><!-- End Frequently Asked Questions Section -->
+
+    <!-- ======= FAQ 2 ======= -->
+    <section id="why-us" class="why-us section-bg">
+      <div class="container-fluid" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-7 d-flex flex-column justify-content-left align-items-stretch  order-2 order-lg-1">
+
+            <div class="section-title">
+              <h2>Che cos’è ALDiNa?</h2>
+            </div>
+
+            <div class="accordion-list">
+              <ul>
+                <li>
+                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Perché il nome ALDiNa? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                    <p>
+                      L'acronimo ALDiNa (Archivi Letterari Nativi Digitali) richiama il nome di Aldo Manuzio, l'inventore delle edizioni aldine, “prototipo del libro moderno”.<p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> Perché l'ancora come logo?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+    Il logo del sito è ispirato alla famosa marca tipografica dello stampatore Aldo Manuzio. Il richiamo al passato si fonde con uno slancio verso il presente, modernizzandola marca con elementi moderni che rimandano al network e al digitale.</p>                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> Come funziona il questionario? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      Il questionario è stato concepito per essere sottoposto a tutti gli archivi che conservano materiali digitali. Ha un duplice scopo: comprendere lo stato attuale delle pratiche archivistiche e uniformare e razionalizzare il processo di acquisizione e gestione di questi materiali.
+ Più precisamente, si vogliono identificare i fondi esistenti, le tipologie documentarie presenti, le tipologie di hardware utilizzate e le versioni di software impiegate nell'archiviazione di oggetti digitali nativi.
+<p>Il questionario mira inoltre a stabilire le modalità di gestione e trattamento dei materiali hardware e dei file attualmente esistenti concentrandosi sulle politiche di preservazione, sui piani di inventariazione e catalogazione e sulle modalità di accesso e fruizione dei materiali.</p>                       </p>
+                    </p>
+                  </div>
+                </li>
+
+               <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-4" class="collapsed"><span>04</span> Quali sono le criticità del progetto? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-4" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      La prima difficolta che l'archivista incontra consiste nel cercare di scoprire se esistano e dove si trovino "nuclei" dell'archivio del soggetto produttore: spesso si ignora addirittura in quali spazi virtuali possano essere archiviati i suoi documenti digitali.
+              Una ulteriore difficoltà, spesso insormontabile, consiste nell'impossibilità di accedere ai documenti trovati.Anche qualora si riesca ad avere le credenziali di autenticazione, ci si imbatte in un terzo livello di difficoltà,
+rappresentato dallo scorrere del tempo. L'archivio digitale di un letterato rischia così di essere irrecuperabile anche solamente dopo pochi mesi.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/why-us.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contatti</h2>
+        </div>
+
+        <div class="row">
+
+
+          <div class="col-lg-12 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Nome</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">La tua email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Oggetto</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Messaggio</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Il tuo messaggio è stato inviato. Grazie!</div>
+              </div>
+              <div class="text-center"><button type="submit">Invia messaggio</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-contact">
+            <h3>ALDiNa</h3>
+            <p>
+            Un progetto di <strong>AIUCD</strong> con la collaborazione di <strong>
+              Clarin</strong>
+            </p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-links">
+            <h4>Credits</h4>
+            <ul>
+              <li><strong>Logo_</strong><a href="https://www.unibo.it/sitoweb/martina.dellobuono2" target="_blank">Martina Dello Buono</a></li>
+              <li><strong>Sito web_</strong><a href="https://www.unibo.it/sitoweb/mariangela.giglio2" target="_blank">Mariangela Giglio</a></li>
+            </ul>
+          </div>
+
+
+
+          <div class="col-lg-4 col-md-6 footer-links">
+            <h4>Segui AIUCD sui social</h4>
+            <div class="social-links mt-3">
+        <a href="https://www.twitter.com/aiucd" target="_blank"><i class="bx bxl-twitter"></i></a>
+         <a href="https://github.com/aiucd" target="_blank"><i class="bx bxl-github"></i></a>
+         <a href="https://www.facebook.com/groups/aiucd" target="_blank"><i class="bx bxl-facebook"></i></a>
+         <a href="https://fedihum.org/@aiucd" target="_blank"><i class="bi bi-mastodon"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
